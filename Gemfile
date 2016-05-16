@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'ruby'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.2'
+gem 'rails','4.2.6'
 # Use mysql2 as the database for Active Record
 gem 'mysql2'
 # Use SCSS for stylesheets
@@ -51,9 +51,8 @@ group :development, :test do
   gem 'spring'
 end
 
-
-gem 'spree', '~> 3.0.8'
-gem 'spree_gateway', '~> 3.0.0'
-gem 'spree_auth_devise', '~> 3.0.0'
-
+gem 'spree', '~> 3.1.0.rc1'
+gem 'spree_auth_devise', '~> 3.1.0.rc1'
+gem 'spree_gateway', '~> 3.1.0.rc1'
+gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git"
 
